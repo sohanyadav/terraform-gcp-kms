@@ -18,8 +18,8 @@ variable "label_order" {
 
 variable "managedby" {
   type        = string
-  default     = "opsstation"
-  description = "ManagedBy, opsstation"
+  default     = "example"
+  description = "ManagedBy, sohanyadav"
 }
 
 variable "repository" {
@@ -93,3 +93,4 @@ variable "service_accounts" {
   default     = []
   description = "List of comma-separated owners for each key declared in set_owners_for."
 }
+
